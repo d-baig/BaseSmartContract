@@ -542,7 +542,7 @@ contract NAME is ERC20, Ownable {
     );
 
 
-    constructor() ERC20("tokenname", "Symbol") {
+    constructor() ERC20("NAME", "Symbol") {
  
         router = IUniswapV2Router02(0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24);
 
